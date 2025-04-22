@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://192.168.1.10:8080/api/favorites";
+// const API_URL = "http://192.168.1.10:8080/api/favorites";
+const API_URL = "https://pawpal-backend-1.onrender.com/api/favorites";
 
 export const getFavoritePets = async () => {
   try {

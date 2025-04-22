@@ -75,7 +75,8 @@ export default function NewPet() {
         food,
       };
 
-      const response = await fetch("http://192.168.1.10:8080/api/pets/add", {
+      // const response = await fetch("http://192.168.1.10:8080/api/pets/add", {
+      const response = await fetch("https://pawpal-backend-1.onrender.com/api/pets/add", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(petData),

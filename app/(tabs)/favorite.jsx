@@ -7,7 +7,8 @@ import { getPetsByCategory } from "@/src/services/petService";
 import Colors from "../../constants/Colors";
 import { useFocusEffect } from "@react-navigation/native";
 
-const API_URL = "http://192.168.1.10:8080/api/pets";
+// const API_URL = "http://192.168.1.10:8080/api/pets";
+const API_URL = "https://pawpal-backend-1.onrender.com/api/pets";
 
 export default function Favorite() {
   const [favorites, setFavorites] = useState([]);

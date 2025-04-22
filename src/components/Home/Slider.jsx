@@ -5,7 +5,8 @@ import Colors from "@/constants/Colors";
 
 const { width } = Dimensions.get("screen"); 
 
-const SERVER_URL = "http://192.168.1.10:8080";
+// const SERVER_URL = "http://192.168.1.10:8080";
+const SERVER_URL = "https://pawpal-backend-1.onrender.com";
 
 export default function Slider() {
   const [sliderList, setSliderList] = useState([]);

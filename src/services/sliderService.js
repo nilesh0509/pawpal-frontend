@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://192.168.1.10:8080/api/sliders"; 
+// const API_URL = "http://192.168.1.10:8080/api/sliders"; 
+const API_URL = "https://pawpal-backend-1.onrender.com/api/sliders"; 
 export const getSliders = async () => {                                                                                 
   try {
     const res = await axios.get(`${API_URL}`);

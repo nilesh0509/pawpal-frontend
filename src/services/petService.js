@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API_URL = "http://192.168.1.10:8080/api/pets"; 
+// const API_URL = "http://192.168.1.10:8080/api/pets"; 
+const API_URL = "https://pawpal-backend-1.onrender.com/api/pets"; 
 
 export const getPetsByCategory = async (category) => {
   try {
